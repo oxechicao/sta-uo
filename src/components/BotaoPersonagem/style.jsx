@@ -1,9 +1,10 @@
 import styled, { css } from 'styled-components'
 
 export const BotaoPersonagem = styled.button`
-    width: 60px;
+    width: 100px;
     height: 120px;
+    background-size: cover;
     ${props => css`
-        background: url('${props.img}');
+        background-image: url(${props.img});
     `}
 `
