@@ -1,0 +1,34 @@
+name: Build
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  bootstrap:
+    strategy:
+      matrix:
+        os:
+          - ubuntu
+          - macos
+
+    name: build
+    runs-on: ${{ matrix.os }}-latest
+    steps:
+      - uses: actions/checkout@v2.3.4
+
+      - uses: actions/setup-node@v2.1.2
+        with:
+          node-version: "14.x"
+
+      - run: yarn ci
+
+      - run: yarn run prettier:check
+
+      - run: yarn run build
+
+      - run: yarn run start
