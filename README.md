@@ -1,3 +1,24 @@
+# STA-UO
+
+Este está sendo implementado durante o Dojo de `ReactJs`.
+
+O intuito do projeto é aprender e discutir sobre os assuntos que envolvem o
+ReactJS, e não implementar o projeto em si.
+
+Ele consiste em um jogo temático de Star Wars onde a seleção de personagens
+será similar ao do Street Fighter 2. O progresso do jogo será semelhante a torre
+do Mortal Kombat 2. E a batalha será de turnos semelhante ao Pokemon do Game Boy.
+
+![streetfighter](https://maxiverso.com.br/wp-content/uploads/2016/02/street-fighter-ii-character-select-screen.jpg)
+
+![mk2tower](https://giantbomb1.cbsistatic.com/uploads/original/0/329/1149519-mameuifx32_2009_09_27_13_36_32_95.jpg)
+
+![pkmn](https://gamefabrique.com/screenshots2/gbc/pokemon-gold-version-18.big.jpg)
+
+---
+
+# React default doc
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

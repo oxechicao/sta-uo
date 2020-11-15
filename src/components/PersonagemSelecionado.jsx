@@ -1,7 +1,5 @@
 import React from 'react'
 
-const PersonagemSelecionado = () => {
-    return <spam>Personagem Selecionado</spam>
-}
+const PersonagemSelecionado = () => <span>Personagem Selecionado</span>
 
 export default PersonagemSelecionado

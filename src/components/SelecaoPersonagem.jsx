@@ -3,7 +3,7 @@ import ListaSelecaoPersonagem from './ListaSelecaoPersonagem'
 import PersonagemSelecionado from './PersonagemSelecionado'
 
 import styled from 'styled-components'
-import { useContext } from 'react';
+// import { useContext } from 'react';
 
 const ContainerRow = styled.div`
     width: 100%;
@@ -13,13 +13,13 @@ const ContainerRow = styled.div`
 `
 
 const SelecaoPersonagem = () => {
-    return (
-        <ContainerRow>
-            <PersonagemSelecionado />
-            <ListaSelecaoPersonagem />
-            <PersonagemSelecionado />
-        </ContainerRow>
-    )
+  return (
+    <ContainerRow>
+      <PersonagemSelecionado />
+      <ListaSelecaoPersonagem />
+      <PersonagemSelecionado />
+    </ContainerRow>
+  )
 }
 
 export default SelecaoPersonagem
