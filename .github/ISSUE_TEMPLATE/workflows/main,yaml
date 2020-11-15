@@ -15,6 +15,7 @@ jobs:
         os:
           - ubuntu
           - macos
+          - windows
 
     name: build
     runs-on: ${{ matrix.os }}-latest
