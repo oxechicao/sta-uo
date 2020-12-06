@@ -1,4 +1,4 @@
-import React, { useContext, useCallback, useState } from 'react'
+import React, { useContext, useState } from 'react'
 import { BotaoPersonagem } from './BotaoPersonagem/style'
 import { JogoContext } from '../context/Jogo'
 import randomIndex from '../utils/randomIndex'
