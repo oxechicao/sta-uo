@@ -3,13 +3,15 @@ import './App.css'
 import TituloPagina from './components/TituloPagina'
 import CenarioBatalha from './components/CenarioBatalha'
 import SelecaoPersonagem from './components/SelecaoPersonagem'
-
+import JogoProvider from './context/Jogo'
 function App () {
   return (
     <div className="App" >
-      <TituloPagina title='Star Wars Selecione o Personagem' />
-      <CenarioBatalha />
-      <SelecaoPersonagem />
+      <JogoProvider>
+        <TituloPagina title='Star Wars Selecione o Personagem' />
+        <CenarioBatalha />
+        <SelecaoPersonagem />
+      </JogoProvider>
     </div>
   )
 }
